@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #2e2e2e; /* Darker container background color */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Light shadow color */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.links-section {
+    margin-bottom: 30px;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pro-link {
+    text-decoration: none;
+    color: #82beff;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.pro-link i {
+    margin-right: 10px;
+}
+
+.pro-link:hover {
+    background-color: #82beff;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+    .pro-link {
+        font-size: 1.1em;
+    }
+}
